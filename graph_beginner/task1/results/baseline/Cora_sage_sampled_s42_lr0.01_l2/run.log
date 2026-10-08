@@ -1,0 +1,13 @@
+E:\Workspace\Beginner\graph_beginner\task1\code\models.py:44: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\SparseCsrTensorImpl.cpp:55.)
+  (num_nodes, num_nodes)).coalesce().to_sparse_csr()
+Cora/sage/sampled seed=42 epoch=10 loss=1.7139 best_val=0.5620
+Cora/sage/sampled seed=42 epoch=20 loss=1.1848 best_val=0.7080
+Cora/sage/sampled seed=42 epoch=30 loss=0.6079 best_val=0.7640
+Cora/sage/sampled seed=42 epoch=40 loss=0.3018 best_val=0.7800
+Cora/sage/sampled seed=42 epoch=50 loss=0.2208 best_val=0.7840
+Cora/sage/sampled seed=42 epoch=60 loss=0.1595 best_val=0.7840
+Cora/sage/sampled seed=42 epoch=70 loss=0.1599 best_val=0.7840
+Cora/sage/sampled seed=42 epoch=80 loss=0.1474 best_val=0.7840
+Cora/sage/sampled seed=42 epoch=90 loss=0.1637 best_val=0.7840
+Cora/sage/sampled seed=42 epoch=100 loss=0.1261 best_val=0.7840
+{"test_accuracy": 0.7979999780654907, "test_macro_f1": 0.7908875346183777, "train_seconds": 8.16127420088742}

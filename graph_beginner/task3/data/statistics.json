@@ -1,0 +1,16 @@
+{
+  "MUTAG": {
+    "train_graphs": 150,
+    "val_graphs": 18,
+    "test_graphs": 20,
+    "features": 7,
+    "classes": 2
+  },
+  "ZINC": {
+    "train_graphs": 10000,
+    "val_graphs": 1000,
+    "test_graphs": 1000,
+    "features": 21,
+    "classes": 10
+  }
+}

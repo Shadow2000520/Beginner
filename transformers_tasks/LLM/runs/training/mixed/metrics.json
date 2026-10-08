@@ -1,0 +1,62 @@
+{
+  "stage": "mixed",
+  "base_model": "E:\\Workspace\\Beginner\\transformers_tasks\\LLM\\models\\Qwen2.5-0.5B",
+  "init_adapters": [
+    "LLM/runs/training/pretrain",
+    "LLM/runs/training/sft"
+  ],
+  "seed": 42,
+  "max_train": null,
+  "max_eval": null,
+  "max_length": 256,
+  "max_prompt_length": 160,
+  "batch_size": 8,
+  "learning_rate": 0.0002,
+  "lora_rank": 8,
+  "full_counts": {
+    "train": 902,
+    "valid": 61,
+    "test": 61
+  },
+  "used_counts": {
+    "train": 902,
+    "valid": 61,
+    "test": 61
+  },
+  "baseline_valid": {
+    "token_nll": 1.2124240652190699,
+    "perplexity": 3.361623578716451,
+    "evaluated_tokens": 2762
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_token_nll": 0.3365536013612439,
+      "valid_token_nll": 0.12296265193209278,
+      "valid_perplexity": 1.1308421853880537
+    },
+    {
+      "epoch": 2,
+      "train_token_nll": 0.09982938395622022,
+      "valid_token_nll": 0.10729572525993798,
+      "valid_perplexity": 1.1132634259207814
+    },
+    {
+      "epoch": 3,
+      "train_token_nll": 0.07517035054243239,
+      "valid_token_nll": 0.1013284299973126,
+      "valid_perplexity": 1.106640035869401
+    }
+  ],
+  "best_epoch": 3,
+  "valid": {
+    "token_nll": 0.1013284299973126,
+    "perplexity": 1.106640035869401,
+    "evaluated_tokens": 2762
+  },
+  "test": {
+    "token_nll": 0.08318126769609699,
+    "perplexity": 1.0867387813304485,
+    "evaluated_tokens": 2352
+  }
+}

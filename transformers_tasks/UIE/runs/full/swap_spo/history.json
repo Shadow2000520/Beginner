@@ -1,0 +1,622 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.23701770717919873,
+    "threshold": 0.5,
+    "dev": {
+      "all": {
+        "precision": 0.14285714285714285,
+        "recall": 0.017543859649122806,
+        "f1": 0.03125,
+        "correct": 1,
+        "predicted": 7,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "correct": 0,
+        "predicted": 0,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.14285714285714285,
+        "recall": 0.041666666666666664,
+        "f1": 0.06451612903225806,
+        "correct": 1,
+        "predicted": 7,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "loss": 0.09285821252259888,
+    "threshold": 0.7,
+    "dev": {
+      "all": {
+        "precision": 0.18421052631578946,
+        "recall": 0.12280701754385964,
+        "f1": 0.1473684210526316,
+        "correct": 7,
+        "predicted": 38,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.3333333333333333,
+        "recall": 0.030303030303030304,
+        "f1": 0.05555555555555555,
+        "correct": 1,
+        "predicted": 3,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.17142857142857143,
+        "recall": 0.25,
+        "f1": 0.2033898305084746,
+        "correct": 6,
+        "predicted": 35,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "loss": 0.057591685203506666,
+    "threshold": 0.7,
+    "dev": {
+      "all": {
+        "precision": 0.29508196721311475,
+        "recall": 0.3157894736842105,
+        "f1": 0.30508474576271183,
+        "correct": 18,
+        "predicted": 61,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.3225806451612903,
+        "recall": 0.30303030303030304,
+        "f1": 0.3125,
+        "correct": 10,
+        "predicted": 31,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.26666666666666666,
+        "recall": 0.3333333333333333,
+        "f1": 0.2962962962962963,
+        "correct": 8,
+        "predicted": 30,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 4,
+    "loss": 0.04191388635105696,
+    "threshold": 0.8,
+    "dev": {
+      "all": {
+        "precision": 0.4482758620689655,
+        "recall": 0.22807017543859648,
+        "f1": 0.3023255813953488,
+        "correct": 13,
+        "predicted": 29,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.5555555555555556,
+        "recall": 0.15151515151515152,
+        "f1": 0.2380952380952381,
+        "correct": 5,
+        "predicted": 9,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.4,
+        "recall": 0.3333333333333333,
+        "f1": 0.3636363636363636,
+        "correct": 8,
+        "predicted": 20,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "loss": 0.030408771638171513,
+    "threshold": 0.7,
+    "dev": {
+      "all": {
+        "precision": 0.391304347826087,
+        "recall": 0.3157894736842105,
+        "f1": 0.34951456310679613,
+        "correct": 18,
+        "predicted": 46,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.4583333333333333,
+        "recall": 0.3333333333333333,
+        "f1": 0.38596491228070173,
+        "correct": 11,
+        "predicted": 24,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.3181818181818182,
+        "recall": 0.2916666666666667,
+        "f1": 0.30434782608695654,
+        "correct": 7,
+        "predicted": 22,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 6,
+    "loss": 0.025434240334894227,
+    "threshold": 0.8,
+    "dev": {
+      "all": {
+        "precision": 0.3142857142857143,
+        "recall": 0.38596491228070173,
+        "f1": 0.3464566929133858,
+        "correct": 22,
+        "predicted": 70,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.35294117647058826,
+        "recall": 0.36363636363636365,
+        "f1": 0.35820895522388063,
+        "correct": 12,
+        "predicted": 34,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.2777777777777778,
+        "recall": 0.4166666666666667,
+        "f1": 0.33333333333333337,
+        "correct": 10,
+        "predicted": 36,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "loss": 0.020784839138607767,
+    "threshold": 0.4,
+    "dev": {
+      "all": {
+        "precision": 0.29213483146067415,
+        "recall": 0.45614035087719296,
+        "f1": 0.35616438356164387,
+        "correct": 26,
+        "predicted": 89,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.38636363636363635,
+        "recall": 0.5151515151515151,
+        "f1": 0.44155844155844154,
+        "correct": 17,
+        "predicted": 44,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.2,
+        "recall": 0.375,
+        "f1": 0.26086956521739135,
+        "correct": 9,
+        "predicted": 45,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 8,
+    "loss": 0.017120344499752176,
+    "threshold": 0.7,
+    "dev": {
+      "all": {
+        "precision": 0.47619047619047616,
+        "recall": 0.3508771929824561,
+        "f1": 0.40404040404040403,
+        "correct": 20,
+        "predicted": 42,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.4444444444444444,
+        "recall": 0.36363636363636365,
+        "f1": 0.39999999999999997,
+        "correct": 12,
+        "predicted": 27,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.5333333333333333,
+        "recall": 0.3333333333333333,
+        "f1": 0.4102564102564102,
+        "correct": 8,
+        "predicted": 15,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 9,
+    "loss": 0.015226708615527433,
+    "threshold": 0.7,
+    "dev": {
+      "all": {
+        "precision": 0.46,
+        "recall": 0.40350877192982454,
+        "f1": 0.42990654205607476,
+        "correct": 23,
+        "predicted": 50,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.42424242424242425,
+        "recall": 0.42424242424242425,
+        "f1": 0.4242424242424243,
+        "correct": 14,
+        "predicted": 33,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.5294117647058824,
+        "recall": 0.375,
+        "f1": 0.4390243902439025,
+        "correct": 9,
+        "predicted": 17,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "loss": 0.012338600381660987,
+    "threshold": 0.8,
+    "dev": {
+      "all": {
+        "precision": 0.48717948717948717,
+        "recall": 0.3333333333333333,
+        "f1": 0.3958333333333333,
+        "correct": 19,
+        "predicted": 39,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.4166666666666667,
+        "recall": 0.30303030303030304,
+        "f1": 0.3508771929824562,
+        "correct": 10,
+        "predicted": 24,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.6,
+        "recall": 0.375,
+        "f1": 0.4615384615384615,
+        "correct": 9,
+        "predicted": 15,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 11,
+    "loss": 0.012526467791758478,
+    "threshold": 0.8,
+    "dev": {
+      "all": {
+        "precision": 0.4423076923076923,
+        "recall": 0.40350877192982454,
+        "f1": 0.42201834862385323,
+        "correct": 23,
+        "predicted": 52,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.4375,
+        "recall": 0.42424242424242425,
+        "f1": 0.43076923076923074,
+        "correct": 14,
+        "predicted": 32,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.45,
+        "recall": 0.375,
+        "f1": 0.4090909090909091,
+        "correct": 9,
+        "predicted": 20,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 12,
+    "loss": 0.010481805307301497,
+    "threshold": 0.7,
+    "dev": {
+      "all": {
+        "precision": 0.48717948717948717,
+        "recall": 0.3333333333333333,
+        "f1": 0.3958333333333333,
+        "correct": 19,
+        "predicted": 39,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.4074074074074074,
+        "recall": 0.3333333333333333,
+        "f1": 0.36666666666666664,
+        "correct": 11,
+        "predicted": 27,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.6666666666666666,
+        "recall": 0.3333333333333333,
+        "f1": 0.4444444444444444,
+        "correct": 8,
+        "predicted": 12,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 13,
+    "loss": 0.010404914162149104,
+    "threshold": 0.5,
+    "dev": {
+      "all": {
+        "precision": 0.43103448275862066,
+        "recall": 0.43859649122807015,
+        "f1": 0.43478260869565216,
+        "correct": 25,
+        "predicted": 58,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.41025641025641024,
+        "recall": 0.48484848484848486,
+        "f1": 0.4444444444444444,
+        "correct": 16,
+        "predicted": 39,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.47368421052631576,
+        "recall": 0.375,
+        "f1": 0.4186046511627907,
+        "correct": 9,
+        "predicted": 19,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 14,
+    "loss": 0.009246897666045943,
+    "threshold": 0.6,
+    "dev": {
+      "all": {
+        "precision": 0.5128205128205128,
+        "recall": 0.3508771929824561,
+        "f1": 0.41666666666666663,
+        "correct": 20,
+        "predicted": 39,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.42857142857142855,
+        "recall": 0.36363636363636365,
+        "f1": 0.3934426229508197,
+        "correct": 12,
+        "predicted": 28,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.7272727272727273,
+        "recall": 0.3333333333333333,
+        "f1": 0.4571428571428572,
+        "correct": 8,
+        "predicted": 11,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "loss": 0.008240610457948964,
+    "threshold": 0.7,
+    "dev": {
+      "all": {
+        "precision": 0.5217391304347826,
+        "recall": 0.42105263157894735,
+        "f1": 0.46601941747572817,
+        "correct": 24,
+        "predicted": 46,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.45454545454545453,
+        "recall": 0.45454545454545453,
+        "f1": 0.45454545454545453,
+        "correct": 15,
+        "predicted": 33,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.6923076923076923,
+        "recall": 0.375,
+        "f1": 0.48648648648648646,
+        "correct": 9,
+        "predicted": 13,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 16,
+    "loss": 0.009005305031510149,
+    "threshold": 0.2,
+    "dev": {
+      "all": {
+        "precision": 0.41935483870967744,
+        "recall": 0.45614035087719296,
+        "f1": 0.43697478991596644,
+        "correct": 26,
+        "predicted": 62,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.425,
+        "recall": 0.5151515151515151,
+        "f1": 0.4657534246575342,
+        "correct": 17,
+        "predicted": 40,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.4090909090909091,
+        "recall": 0.375,
+        "f1": 0.3913043478260869,
+        "correct": 9,
+        "predicted": 22,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 17,
+    "loss": 0.0074580947199871595,
+    "threshold": 0.3,
+    "dev": {
+      "all": {
+        "precision": 0.46296296296296297,
+        "recall": 0.43859649122807015,
+        "f1": 0.45045045045045046,
+        "correct": 25,
+        "predicted": 54,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.4444444444444444,
+        "recall": 0.48484848484848486,
+        "f1": 0.463768115942029,
+        "correct": 16,
+        "predicted": 36,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.5,
+        "recall": 0.375,
+        "f1": 0.42857142857142855,
+        "correct": 9,
+        "predicted": 18,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 18,
+    "loss": 0.007258552825322938,
+    "threshold": 0.2,
+    "dev": {
+      "all": {
+        "precision": 0.43103448275862066,
+        "recall": 0.43859649122807015,
+        "f1": 0.43478260869565216,
+        "correct": 25,
+        "predicted": 58,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.425,
+        "recall": 0.5151515151515151,
+        "f1": 0.4657534246575342,
+        "correct": 17,
+        "predicted": 40,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.4444444444444444,
+        "recall": 0.3333333333333333,
+        "f1": 0.380952380952381,
+        "correct": 8,
+        "predicted": 18,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 19,
+    "loss": 0.007006686987666444,
+    "threshold": 0.3,
+    "dev": {
+      "all": {
+        "precision": 0.4782608695652174,
+        "recall": 0.38596491228070173,
+        "f1": 0.42718446601941745,
+        "correct": 22,
+        "predicted": 46,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.41935483870967744,
+        "recall": 0.3939393939393939,
+        "f1": 0.40625,
+        "correct": 13,
+        "predicted": 31,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.6,
+        "recall": 0.375,
+        "f1": 0.4615384615384615,
+        "correct": 9,
+        "predicted": 15,
+        "gold": 24
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "loss": 0.006896926862473341,
+    "threshold": 0.2,
+    "dev": {
+      "all": {
+        "precision": 0.4444444444444444,
+        "recall": 0.42105263157894735,
+        "f1": 0.43243243243243246,
+        "correct": 24,
+        "predicted": 54,
+        "gold": 57
+      },
+      "entity": {
+        "precision": 0.42105263157894735,
+        "recall": 0.48484848484848486,
+        "f1": 0.4507042253521127,
+        "correct": 16,
+        "predicted": 38,
+        "gold": 33
+      },
+      "relation": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4,
+        "correct": 8,
+        "predicted": 16,
+        "gold": 24
+      }
+    }
+  }
+]

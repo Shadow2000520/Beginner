@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "supervised_original": {
+    "train_pairs": 1416,
+    "dev_pairs": 352,
+    "shared_reviews": 277,
+    "conflicting_pairs_removed": 0,
+    "unique_unambiguous_pairs": 1708
+  },
+  "supervised": {
+    "train": {
+      "pairs": 1199,
+      "reviews": 413,
+      "labels": {
+        "1": 413,
+        "0": 786
+      }
+    },
+    "dev": {
+      "pairs": 255,
+      "reviews": 88,
+      "labels": {
+        "1": 88,
+        "0": 167
+      }
+    },
+    "test": {
+      "pairs": 254,
+      "reviews": 89,
+      "labels": {
+        "1": 89,
+        "0": 165
+      }
+    }
+  },
+  "lcqmc": {
+    "original_train_lines": 477532,
+    "original_unique_train_texts": 245951,
+    "train_unique_after_exclusion": 217790,
+    "original_dev_pairs": 8802,
+    "dev_pairs": 4403,
+    "heldout_test_pairs": 4399,
+    "official_unlabeled_test_pairs": 12500,
+    "train_eval_text_overlap_after_cleaning": 0
+  },
+  "source_sha256": {
+    "supervised\\data\\comment_classify\\train.txt": "939a5a1eb62ac5ee4955dd970b08e7cde8eb35315d95538ff9271813e6a8cfa4",
+    "supervised\\data\\comment_classify\\dev.txt": "dd10f0ffd053ea2e61e481a458c2487bfedb8398f8d6e7e7681cec716a72522d",
+    "unsupervised\\simcse\\data\\LCQMC\\train.txt": "52eb9a082cf792ec3781460ce249617e7edc6e98475207a8df76f61766da8f6d",
+    "unsupervised\\simcse\\data\\LCQMC\\dev.tsv": "42b2fd01b8186397a0c5d0ce5173a9f1dc3712d5e2a1f4fe43b4872c8e647571",
+    "unsupervised\\simcse\\data\\LCQMC\\test.tsv": "ea1d3f94c21c18b61a7dd9a3207ff1ab2429ca913013286f48d2ca71337f26ac"
+  }
+}

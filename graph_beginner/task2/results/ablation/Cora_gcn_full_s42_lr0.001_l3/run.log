@@ -1,0 +1,4 @@
+Cora/gcn/full epoch=10 loss=0.6920 val_auc=0.6974
+Cora/gcn/full epoch=20 loss=0.6873 val_auc=0.6974
+Cora/gcn/full epoch=30 loss=0.6837 val_auc=0.6974
+{"test_auc": 0.6808327436447144, "test_average_precision": 0.7030957341194153, "test_accuracy": 0.5, "train_seconds": 2.6065953000215814}

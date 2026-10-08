@@ -1,0 +1,11 @@
+CiteSeer/gat/full seed=43 epoch=10 loss=1.6747 best_val=0.4940
+CiteSeer/gat/full seed=43 epoch=20 loss=1.5117 best_val=0.6260
+CiteSeer/gat/full seed=43 epoch=30 loss=1.3022 best_val=0.7000
+CiteSeer/gat/full seed=43 epoch=40 loss=1.1724 best_val=0.7000
+CiteSeer/gat/full seed=43 epoch=50 loss=1.0316 best_val=0.7000
+CiteSeer/gat/full seed=43 epoch=60 loss=0.9380 best_val=0.7000
+CiteSeer/gat/full seed=43 epoch=70 loss=0.9143 best_val=0.7000
+CiteSeer/gat/full seed=43 epoch=80 loss=0.8966 best_val=0.7000
+CiteSeer/gat/full seed=43 epoch=90 loss=0.7474 best_val=0.7040
+CiteSeer/gat/full seed=43 epoch=100 loss=0.8878 best_val=0.7040
+{"test_accuracy": 0.7070000171661377, "test_macro_f1": 0.6784365177154541, "train_seconds": 17.134359000017866}

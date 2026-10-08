@@ -1,0 +1,23 @@
+{
+  "dataset": "CiteSeer",
+  "model": "gin",
+  "mode": "full",
+  "epochs": 100,
+  "patience": 0,
+  "eval_every": 5,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "layers": 2,
+  "hidden": 32,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 1024,
+  "neighbors": [
+    15
+  ],
+  "seed": 43,
+  "threads": 4,
+  "device": "cuda",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task1\\data",
+  "output": "task1\\results\\baseline\\CiteSeer_gin_full_s43_lr0.01_l2"
+}

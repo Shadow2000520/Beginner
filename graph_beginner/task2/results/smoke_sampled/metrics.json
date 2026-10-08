@@ -1,0 +1,51 @@
+{
+  "dataset": "Cora",
+  "model": "gcn",
+  "mode": "sampled",
+  "epochs": 2,
+  "eval_every": 1,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "layers": 2,
+  "hidden": 32,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 2048,
+  "neighbors": [
+    15,
+    10
+  ],
+  "max_train_edges": 0,
+  "seed": 42,
+  "threads": 4,
+  "device": "cuda",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task2\\data",
+  "output": "task2\\results\\smoke_sampled",
+  "status": "ok",
+  "device_used": "cuda",
+  "graph_stats": {
+    "nodes": 2708,
+    "undirected_edges": 5278,
+    "features": 1433
+  },
+  "train_positive_edges": 1346,
+  "val_edges": 526,
+  "test_edges": 1054,
+  "best_epoch": 1,
+  "best_val_auc": 0.7063424587249756,
+  "val_auc": 0.7063424587249756,
+  "test_auc": 0.6927832365036011,
+  "test_average_precision": 0.7128495573997498,
+  "test_accuracy": 0.5,
+  "train_seconds": 1.4978284999961033,
+  "mean_epoch_seconds": 0.7489142499980517,
+  "optimizer_steps": 4,
+  "parameters": 46944,
+  "environment": {
+    "python": "3.13.5",
+    "torch": "2.8.0+cu128",
+    "pyg": "2.7.0",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5080"
+  }
+}

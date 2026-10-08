@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "original": {
+    "train_rows": 2087,
+    "dev_rows": 232,
+    "test_rows": 0
+  },
+  "splits": {
+    "train": {
+      "rows": 1809,
+      "contents": 80,
+      "positive_rows": 316,
+      "gold_spans": 339,
+      "relation_rows": 774
+    },
+    "dev": {
+      "rows": 278,
+      "contents": 10,
+      "positive_rows": 50,
+      "gold_spans": 57,
+      "relation_rows": 144
+    },
+    "test": {
+      "rows": 232,
+      "contents": 10,
+      "positive_rows": 42,
+      "gold_spans": 47,
+      "relation_rows": 132
+    }
+  },
+  "source_sha256": {
+    "train.txt": "e9d1518720efd3805482dfebd834e450e9bd8314f416d9ac80bac3b0524e5a83",
+    "dev.txt": "2779fe82b0ee1a7c3b1546421e329607a745957ce01e58677cbdfa217c57fb85",
+    "test.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

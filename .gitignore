@@ -1,0 +1,27 @@
+# Local environments and generated caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.matplotlib/
+**/.work/
+**/.reference/
+**/.claude/
+**/.idea/workspace.xml
+*.py[cod]
+
+# Datasets and downloaded model assets
+**/data/**
+**/models/**
+**/ckpt/**
+**/checkpoints/**
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.parquet
+
+# Large generated run directories. Selected small results are tracked explicitly.
+**/runs/**

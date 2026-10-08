@@ -1,0 +1,14 @@
+{
+  "variant": "swap_spo",
+  "model": "E:\\Workspace\\Beginner\\llm-beginner\\task-4-rag\\models\\bge-small-zh-v1.5",
+  "seed": 42,
+  "train_rows": 1899,
+  "epochs": 20,
+  "batch_size": 16,
+  "max_length": 256,
+  "learning_rate": 5e-05,
+  "amp": true,
+  "device": "cuda:0",
+  "omitted_gold_spans": 0,
+  "unaligned_gold_spans": 0
+}

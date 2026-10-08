@@ -1,0 +1,11 @@
+{
+  "base_model": "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\models\\Qwen2.5-0.5B",
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "r": 8,
+  "alpha": 16.0,
+  "epoch": 3,
+  "dev_loss": 1.1189892737560125
+}

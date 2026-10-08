@@ -1,0 +1,23 @@
+{
+  "dataset": "Cora",
+  "model": "sage",
+  "mode": "sampled",
+  "epochs": 30,
+  "eval_every": 5,
+  "lr": 0.05,
+  "weight_decay": 0.0005,
+  "layers": 3,
+  "hidden": 32,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 2048,
+  "neighbors": [
+    15
+  ],
+  "max_train_edges": 20000,
+  "seed": 42,
+  "threads": 4,
+  "device": "cuda",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task2\\data",
+  "output": "task2\\results\\ablation\\Cora_sage_sampled_s42_lr0.05_l3"
+}

@@ -1,0 +1,11 @@
+Cora/gat/full seed=42 epoch=10 loss=1.9410 best_val=0.2460
+Cora/gat/full seed=42 epoch=20 loss=1.9344 best_val=0.4380
+Cora/gat/full seed=42 epoch=30 loss=1.9280 best_val=0.5840
+Cora/gat/full seed=42 epoch=40 loss=1.9208 best_val=0.6360
+Cora/gat/full seed=42 epoch=50 loss=1.9137 best_val=0.6840
+Cora/gat/full seed=42 epoch=60 loss=1.9053 best_val=0.7080
+Cora/gat/full seed=42 epoch=70 loss=1.8994 best_val=0.7200
+Cora/gat/full seed=42 epoch=80 loss=1.8945 best_val=0.7260
+Cora/gat/full seed=42 epoch=90 loss=1.8927 best_val=0.7260
+Cora/gat/full seed=42 epoch=100 loss=1.8816 best_val=0.7400
+{"test_accuracy": 0.7480000257492065, "test_macro_f1": 0.7470201849937439, "train_seconds": 1.7060303997714072}

@@ -1,0 +1,128 @@
+{
+  "checkpoint": "E:\\Workspace\\Beginner\\llm-beginner\\task-1-transformer\\ckpt\\best.pt",
+  "checkpoint_sha256": "b9f92b446d285007a7028405c28e869580da23a09c7f8a82280f06526a0ea3b1",
+  "data": "E:\\Workspace\\Beginner\\llm-beginner\\task-1-transformer\\data\\test.parquet",
+  "selection": "原始顺序首条：正/负面15–40字符，长句50–80字符",
+  "samples": [
+    {
+      "name": "positive",
+      "title": "正面样本",
+      "dataset_row": 0,
+      "text": "这个宾馆比较陈旧了，特价的房间也很一般。总体来说一般",
+      "label": 1,
+      "prediction": 0,
+      "positive_probability": 0.005980505608022213,
+      "tokens": 26,
+      "unknown_count": 0,
+      "layer_index": 3,
+      "head_index": 0,
+      "top_received": [
+        {
+          "position": 22,
+          "char": "体",
+          "mean_weight": 0.3468717038631439
+        },
+        {
+          "position": 14,
+          "char": "房",
+          "mean_weight": 0.19837620854377747
+        },
+        {
+          "position": 24,
+          "char": "说",
+          "mean_weight": 0.08688744157552719
+        },
+        {
+          "position": 20,
+          "char": "。",
+          "mean_weight": 0.07560564577579498
+        },
+        {
+          "position": 12,
+          "char": "价",
+          "mean_weight": 0.06358429789543152
+        }
+      ]
+    },
+    {
+      "name": "negative",
+      "title": "负面样本",
+      "dataset_row": 17,
+      "text": "风扇确实够响的，尤其是到晚上周围安静下来。风扇频频开启，发热量有些惊人",
+      "label": 0,
+      "prediction": 0,
+      "positive_probability": 0.0035558664239943027,
+      "tokens": 35,
+      "unknown_count": 0,
+      "layer_index": 3,
+      "head_index": 0,
+      "top_received": [
+        {
+          "position": 12,
+          "char": "到",
+          "mean_weight": 0.2579606771469116
+        },
+        {
+          "position": 8,
+          "char": "，",
+          "mean_weight": 0.11605755984783173
+        },
+        {
+          "position": 15,
+          "char": "周",
+          "mean_weight": 0.11070430278778076
+        },
+        {
+          "position": 18,
+          "char": "静",
+          "mean_weight": 0.05746020749211311
+        },
+        {
+          "position": 33,
+          "char": "些",
+          "mean_weight": 0.055334899574518204
+        }
+      ]
+    },
+    {
+      "name": "long",
+      "title": "长句样本",
+      "dataset_row": 6,
+      "text": "前台接待太差，酒店有A B楼之分，本人check－in后，前台未告诉B楼在何处，并且B楼无明显指示；房间太小，根本不像4星级设施，下次不会再选择入住此店啦。",
+      "label": 0,
+      "prediction": 0,
+      "positive_probability": 0.0035758689045906067,
+      "tokens": 78,
+      "unknown_count": 0,
+      "layer_index": 3,
+      "head_index": 0,
+      "top_received": [
+        {
+          "position": 4,
+          "char": "待",
+          "mean_weight": 0.24444442987442017
+        },
+        {
+          "position": 12,
+          "char": " ",
+          "mean_weight": 0.23589493334293365
+        },
+        {
+          "position": 78,
+          "char": "。",
+          "mean_weight": 0.04644598066806793
+        },
+        {
+          "position": 20,
+          "char": "c",
+          "mean_weight": 0.023159552365541458
+        },
+        {
+          "position": 18,
+          "char": "本",
+          "mean_weight": 0.01960955560207367
+        }
+      ]
+    }
+  ]
+}

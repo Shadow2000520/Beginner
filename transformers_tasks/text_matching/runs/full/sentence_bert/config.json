@@ -1,0 +1,15 @@
+{
+  "method": "sentence_bert",
+  "model": "E:\\Workspace\\Beginner\\llm-beginner\\task-4-rag\\models\\bge-small-zh-v1.5",
+  "seed": 42,
+  "epochs": 10,
+  "batch_size": 16,
+  "max_length": 128,
+  "learning_rate": 5e-05,
+  "train_samples": 1199,
+  "total_steps": 750,
+  "device": "cuda:0",
+  "bf16": true,
+  "torch_version": "2.13.0+cu130",
+  "duplicate_ratio": null
+}

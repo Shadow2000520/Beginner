@@ -1,0 +1,4 @@
+CiteSeer/gat/full epoch=10 loss=0.6930 val_auc=0.5911
+CiteSeer/gat/full epoch=20 loss=0.6928 val_auc=0.5911
+CiteSeer/gat/full epoch=30 loss=0.6930 val_auc=0.5911
+{"test_auc": 0.5968167781829834, "test_average_precision": 0.6615430116653442, "test_accuracy": 0.5, "train_seconds": 1.7096157002961263}

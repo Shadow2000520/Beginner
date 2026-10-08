@@ -1,0 +1,50 @@
+{
+  "dataset": "Cora",
+  "model": "sage",
+  "mode": "sampled",
+  "epochs": 30,
+  "eval_every": 5,
+  "lr": 0.05,
+  "weight_decay": 0.0005,
+  "layers": 2,
+  "hidden": 32,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 2048,
+  "neighbors": [
+    15
+  ],
+  "max_train_edges": 20000,
+  "seed": 42,
+  "threads": 4,
+  "device": "cuda",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task2\\data",
+  "output": "task2\\results\\ablation\\Cora_sage_sampled_s42_lr0.05_l2",
+  "status": "ok",
+  "device_used": "cuda",
+  "graph_stats": {
+    "nodes": 2708,
+    "undirected_edges": 5278,
+    "features": 1433
+  },
+  "train_positive_edges": 1346,
+  "val_edges": 526,
+  "test_edges": 1054,
+  "best_epoch": 30,
+  "best_val_auc": 0.7177926301956177,
+  "val_auc": 0.7177926301956177,
+  "test_auc": 0.7364301085472107,
+  "test_average_precision": 0.7112387418746948,
+  "test_accuracy": 0.6688804626464844,
+  "train_seconds": 2.230673999642022,
+  "mean_epoch_seconds": 0.07435579998806739,
+  "optimizer_steps": 60,
+  "parameters": 93824,
+  "environment": {
+    "python": "3.13.5",
+    "torch": "2.8.0+cu128",
+    "pyg": "2.7.0",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5080"
+  }
+}

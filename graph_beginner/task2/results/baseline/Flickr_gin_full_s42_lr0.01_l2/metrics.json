@@ -1,0 +1,50 @@
+{
+  "dataset": "Flickr",
+  "model": "gin",
+  "mode": "full",
+  "epochs": 30,
+  "eval_every": 5,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "layers": 2,
+  "hidden": 32,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 2048,
+  "neighbors": [
+    15
+  ],
+  "max_train_edges": 20000,
+  "seed": 42,
+  "threads": 4,
+  "device": "cuda",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task2\\data",
+  "output": "task2\\results\\baseline\\Flickr_gin_full_s42_lr0.01_l2",
+  "status": "ok",
+  "device_used": "cuda",
+  "graph_stats": {
+    "nodes": 89250,
+    "undirected_edges": 449878,
+    "features": 500
+  },
+  "train_positive_edges": 20000,
+  "val_edges": 44986,
+  "test_edges": 89974,
+  "best_epoch": 10,
+  "best_val_auc": 1.0,
+  "val_auc": 1.0,
+  "test_auc": 1.0,
+  "test_average_precision": 1.0,
+  "test_accuracy": 0.5,
+  "train_seconds": 6.224544700002298,
+  "mean_epoch_seconds": 0.20748482333340992,
+  "optimizer_steps": 30,
+  "parameters": 19202,
+  "environment": {
+    "python": "3.13.5",
+    "torch": "2.8.0+cu128",
+    "pyg": "2.7.0",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5080"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "Cora",
+  "model": "gcn",
+  "mode": "sampled",
+  "epochs": 2,
+  "eval_every": 1,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "layers": 2,
+  "hidden": 32,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 2048,
+  "neighbors": [
+    15,
+    10
+  ],
+  "max_train_edges": 0,
+  "seed": 42,
+  "threads": 4,
+  "device": "cuda",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task2\\data",
+  "output": "task2\\results\\smoke_sampled"
+}

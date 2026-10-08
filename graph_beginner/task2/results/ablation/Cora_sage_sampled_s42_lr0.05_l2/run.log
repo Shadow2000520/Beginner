@@ -1,0 +1,4 @@
+Cora/sage/sampled epoch=10 loss=0.6909 val_auc=0.5831
+Cora/sage/sampled epoch=20 loss=0.6626 val_auc=0.6946
+Cora/sage/sampled epoch=30 loss=0.6415 val_auc=0.7178
+{"test_auc": 0.7364301085472107, "test_average_precision": 0.7112387418746948, "test_accuracy": 0.6688804626464844, "train_seconds": 2.230673999642022}

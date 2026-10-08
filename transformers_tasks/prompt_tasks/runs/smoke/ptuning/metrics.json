@@ -1,0 +1,227 @@
+{
+  "method": "ptuning",
+  "base_model": "E:\\Workspace\\Beginner\\llm-beginner\\task-4-rag\\models\\bge-small-zh-v1.5",
+  "labels": [
+    "电脑",
+    "水果",
+    "平板",
+    "衣服",
+    "酒店",
+    "洗浴",
+    "书籍",
+    "蒙牛",
+    "手机",
+    "电器"
+  ],
+  "prompt_length": 15,
+  "max_length": 128,
+  "seed": 42,
+  "train_size": 63,
+  "valid_size": 293,
+  "test_size": 297,
+  "best_epoch": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.8106963634490967,
+      "valid_accuracy": 0.3515358361774744,
+      "valid_macro_f1": 0.1424854859717245
+    }
+  ],
+  "valid": {
+    "accuracy": 0.3515358361774744,
+    "macro_f1": 0.1424854859717245,
+    "weighted_f1": 0.2255606629091928,
+    "report": {
+      "电脑": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 16.0
+      },
+      "水果": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 54.0
+      },
+      "平板": {
+        "precision": 0.5416666666666666,
+        "recall": 0.2826086956521739,
+        "f1-score": 0.37142857142857144,
+        "support": 46.0
+      },
+      "衣服": {
+        "precision": 0.2916666666666667,
+        "recall": 0.98,
+        "f1-score": 0.44954128440366975,
+        "support": 50.0
+      },
+      "酒店": {
+        "precision": 0.40404040404040403,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.5594405594405595,
+        "support": 44.0
+      },
+      "洗浴": {
+        "precision": 0.5,
+        "recall": 0.023255813953488372,
+        "f1-score": 0.044444444444444446,
+        "support": 43.0
+      },
+      "书籍": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 22.0
+      },
+      "蒙牛": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 9.0
+      },
+      "手机": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 8.0
+      },
+      "电器": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "accuracy": 0.3515358361774744,
+      "macro avg": {
+        "precision": 0.17373737373737372,
+        "recall": 0.21949554186965714,
+        "f1-score": 0.1424854859717245,
+        "support": 293.0
+      },
+      "weighted avg": {
+        "precision": 0.2688661357603337,
+        "recall": 0.3515358361774744,
+        "f1-score": 0.2255606629091928,
+        "support": 293.0
+      }
+    },
+    "support": {
+      "水果": 54,
+      "洗浴": 43,
+      "酒店": 44,
+      "衣服": 50,
+      "平板": 46,
+      "书籍": 22,
+      "手机": 8,
+      "电脑": 16,
+      "蒙牛": 9,
+      "电器": 1
+    },
+    "predicted": {
+      "衣服": 168,
+      "酒店": 99,
+      "平板": 24,
+      "洗浴": 2
+    }
+  },
+  "test": {
+    "accuracy": 0.3164983164983165,
+    "macro_f1": 0.12495439827643251,
+    "weighted_f1": 0.19570120774984529,
+    "report": {
+      "电脑": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 16.0
+      },
+      "水果": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 54.0
+      },
+      "平板": {
+        "precision": 0.44,
+        "recall": 0.2391304347826087,
+        "f1-score": 0.30985915492957744,
+        "support": 46.0
+      },
+      "衣服": {
+        "precision": 0.2677595628415301,
+        "recall": 0.98,
+        "f1-score": 0.4206008583690987,
+        "support": 50.0
+      },
+      "酒店": {
+        "precision": 0.39080459770114945,
+        "recall": 0.7727272727272727,
+        "f1-score": 0.5190839694656488,
+        "support": 44.0
+      },
+      "洗浴": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 44.0
+      },
+      "书籍": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 22.0
+      },
+      "蒙牛": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 10.0
+      },
+      "手机": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 9.0
+      },
+      "电器": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "accuracy": 0.3164983164983165,
+      "macro avg": {
+        "precision": 0.10985641605426795,
+        "recall": 0.19918577075098814,
+        "f1-score": 0.12495439827643251,
+        "support": 297.0
+      },
+      "weighted avg": {
+        "precision": 0.17112249306709454,
+        "recall": 0.3164983164983165,
+        "f1-score": 0.19570120774984529,
+        "support": 297.0
+      }
+    },
+    "support": {
+      "洗浴": 44,
+      "水果": 54,
+      "酒店": 44,
+      "衣服": 50,
+      "电脑": 16,
+      "书籍": 22,
+      "平板": 46,
+      "蒙牛": 10,
+      "手机": 9,
+      "电器": 2
+    },
+    "predicted": {
+      "酒店": 87,
+      "衣服": 183,
+      "平板": 25,
+      "洗浴": 2
+    }
+  }
+}

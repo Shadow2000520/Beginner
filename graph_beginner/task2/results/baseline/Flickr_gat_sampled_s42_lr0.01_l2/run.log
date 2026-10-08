@@ -1,0 +1,4 @@
+Flickr/gat/sampled epoch=10 loss=0.8880 val_auc=0.4841
+Flickr/gat/sampled epoch=20 loss=0.7721 val_auc=0.5356
+Flickr/gat/sampled epoch=30 loss=0.7360 val_auc=0.5425
+{"test_auc": 0.549714207649231, "test_average_precision": 0.5158901810646057, "test_accuracy": 0.5034565329551697, "train_seconds": 34.27264009974897}

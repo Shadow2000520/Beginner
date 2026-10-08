@@ -1,0 +1,71 @@
+{
+  "base_model": "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\models\\Qwen2.5-0.5B",
+  "reward_dir": "E:\\Workspace\\Beginner\\transformers_tasks\\RLHF\\runs\\reward_model",
+  "reward_test_rank_accuracy": 0.6241830065359477,
+  "train_last_layers": 1,
+  "response_length": 6,
+  "temperature": 0.9,
+  "top_p": 0.9,
+  "reward_max_length": 96,
+  "seed": 42,
+  "steps": 1,
+  "batch_size": 2,
+  "ppo_epochs": 1,
+  "kl_coef": 0.05,
+  "clip_range": 0.2,
+  "before": {
+    "mean_raw_reward": 1.4561716318130493,
+    "mean_bounded_reward": 0.5748839974403381,
+    "samples": [
+      {
+        "prompt": "刚收到货，感觉",
+        "response": "和之前买的时候不一样了",
+        "raw_reward": -2.0835
+      },
+      {
+        "prompt": "这次购物总的来说",
+        "response": "还算愉快，购物体验很棒",
+        "raw_reward": 4.9958
+      }
+    ]
+  },
+  "after": {
+    "mean_raw_reward": 1.4561716318130493,
+    "mean_bounded_reward": 0.5748839974403381,
+    "samples": [
+      {
+        "prompt": "刚收到货，感觉",
+        "response": "和之前买的时候不一样了",
+        "raw_reward": -2.0835
+      },
+      {
+        "prompt": "这次购物总的来说",
+        "response": "还算愉快，购物体验很棒",
+        "raw_reward": 4.9958
+      }
+    ]
+  },
+  "history": [
+    {
+      "step": 1,
+      "raw_reward_mean": 0.026366591453552246,
+      "reward_mean": 0.5015575885772705,
+      "sampled_kl_per_token": 0.0060323080979287624,
+      "policy_loss": -0.0,
+      "value_loss": 31.133100509643555,
+      "ratio_mean": 1.0
+    }
+  ],
+  "human_feedback": [
+    {
+      "prompt": "刚收到货，感觉",
+      "response": "有点脏，因为是进口",
+      "human_score": 0.0,
+      "reward_mean": 0.5,
+      "sampled_kl_per_token": 0.019682884216308594,
+      "policy_loss": -6.7763872146606445,
+      "value_loss": 22.9597110748291,
+      "ratio_mean": 1.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "MUTAG",
+  "model": "sage",
+  "pooling": "min",
+  "epochs": 30,
+  "eval_every": 5,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "layers": 2,
+  "hidden": 64,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 128,
+  "zinc_bins": 10,
+  "max_train_graphs": 3000,
+  "seed": 42,
+  "threads": 4,
+  "device": "auto",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task3\\data",
+  "output": "results\\baseline\\MUTAG_sage_min_s42_lr0.01_l2"
+}

@@ -1,0 +1,29 @@
+{
+  "Cora": {
+    "nodes": 2708,
+    "undirected_edges": 5278,
+    "features": 1433,
+    "train_message_edges": 3142,
+    "train_positive_edges": 1346,
+    "val_positive_edges": 263,
+    "test_positive_edges": 527
+  },
+  "CiteSeer": {
+    "nodes": 3327,
+    "undirected_edges": 4552,
+    "features": 3703,
+    "train_message_edges": 2709,
+    "train_positive_edges": 1161,
+    "val_positive_edges": 227,
+    "test_positive_edges": 455
+  },
+  "Flickr": {
+    "nodes": 89250,
+    "undirected_edges": 449878,
+    "features": 500,
+    "train_message_edges": 267679,
+    "train_positive_edges": 114719,
+    "val_positive_edges": 22493,
+    "test_positive_edges": 44987
+  }
+}

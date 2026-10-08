@@ -1,0 +1,38 @@
+{
+  "base_model": "E:\\Workspace\\Beginner\\llm-beginner\\task-4-rag\\models\\bge-small-zh-v1.5",
+  "seed": 42,
+  "max_length": 96,
+  "train_size": 128,
+  "valid_size": 64,
+  "test_size": 64,
+  "removed_overlap_rows": 23,
+  "best_epoch": 1,
+  "baseline_valid": {
+    "rank_accuracy": 0.03125,
+    "pair_accuracy": 0.4947916666666667,
+    "mean_pair_margin": -0.0013742391602136195,
+    "ranklists": 64
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.6622031629085541,
+      "rank_accuracy": 0.171875,
+      "pair_accuracy": 0.7291666666666666,
+      "mean_pair_margin": 0.23908085841685534,
+      "ranklists": 64
+    }
+  ],
+  "valid": {
+    "rank_accuracy": 0.171875,
+    "pair_accuracy": 0.7291666666666666,
+    "mean_pair_margin": 0.23908085841685534,
+    "ranklists": 64
+  },
+  "test": {
+    "rank_accuracy": 0.1875,
+    "pair_accuracy": 0.7291666666666666,
+    "mean_pair_margin": 0.20637026398617309,
+    "ranklists": 64
+  }
+}

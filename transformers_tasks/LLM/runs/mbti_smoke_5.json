@@ -1,0 +1,60 @@
+{
+  "model": "E:\\Workspace\\Beginner\\transformers_tasks\\LLM\\models\\Qwen2.5-1.5B-Instruct",
+  "result": {
+    "details": {
+      "E": 1,
+      "I": 0,
+      "S": 1,
+      "N": 1,
+      "T": 0,
+      "F": 0,
+      "J": 0,
+      "P": 2
+    },
+    "res": "ESTP",
+    "ties": [
+      "S/N",
+      "T/F"
+    ],
+    "question_count": 5,
+    "excluded": [
+      {
+        "id": "75",
+        "reason": "invalid dimension mapping"
+      }
+    ],
+    "choices": [
+      {
+        "id": "1",
+        "choice": "B",
+        "trait": "P",
+        "choice_probability": 0.622459352016449
+      },
+      {
+        "id": "2",
+        "choice": "A",
+        "trait": "P",
+        "choice_probability": 0.7310585975646973
+      },
+      {
+        "id": "3",
+        "choice": "A",
+        "trait": "S",
+        "choice_probability": 0.7057850360870361
+      },
+      {
+        "id": "4",
+        "choice": "A",
+        "trait": "E",
+        "choice_probability": 0.9046505093574524
+      },
+      {
+        "id": "5",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.970687747001648
+      }
+    ],
+    "method": "single-token A/B next-token logits; ties choose the first letter"
+  }
+}

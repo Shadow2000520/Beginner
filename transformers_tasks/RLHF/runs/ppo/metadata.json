@@ -1,0 +1,306 @@
+{
+  "base_model": "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\models\\Qwen2.5-0.5B",
+  "reward_dir": "E:\\Workspace\\Beginner\\transformers_tasks\\RLHF\\runs\\reward_model",
+  "reward_test_rank_accuracy": 0.6241830065359477,
+  "train_last_layers": 2,
+  "response_length": 12,
+  "temperature": 0.9,
+  "top_p": 0.9,
+  "reward_max_length": 96,
+  "seed": 42,
+  "steps": 24,
+  "batch_size": 4,
+  "ppo_epochs": 2,
+  "kl_coef": 0.05,
+  "clip_range": 0.2,
+  "before": {
+    "mean_raw_reward": 0.09798187017440796,
+    "mean_bounded_reward": 0.5057059526443481,
+    "samples": [
+      {
+        "prompt": "刚收到货，感觉",
+        "response": "和之前不一样了，是包装变形了吗？还是什么",
+        "raw_reward": -2.9794
+      },
+      {
+        "prompt": "这次购物总的来说",
+        "response": "还算顺利。我们买了一些零食，比如薯片和",
+        "raw_reward": 2.8361
+      },
+      {
+        "prompt": "说实话，这家酒店",
+        "response": "服务态度还不错，不过我觉得这里的早餐最好吃，麦",
+        "raw_reward": 2.5739
+      },
+      {
+        "prompt": "这件衣服穿起来",
+        "response": "不觉得凉，但是会感觉到很冷，但是不是",
+        "raw_reward": -0.8693
+      },
+      {
+        "prompt": "这个苹果吃起来",
+        "response": "比鸡蛋还酸,吃多了对身体好吗?\n\n",
+        "raw_reward": 0.7605
+      },
+      {
+        "prompt": "新买的手机用起来",
+        "response": "有故障,于是他用一元钱在某品牌",
+        "raw_reward": -1.7339
+      }
+    ]
+  },
+  "after": {
+    "mean_raw_reward": 1.117335319519043,
+    "mean_bounded_reward": 0.5663902759552002,
+    "samples": [
+      {
+        "prompt": "刚收到货，感觉",
+        "response": "好快了，但是没包装好，里面的东西什么",
+        "raw_reward": -0.8037
+      },
+      {
+        "prompt": "这次购物总的来说",
+        "response": "还算顺利,而且总体感觉比较满意,这次去的是",
+        "raw_reward": 3.5996
+      },
+      {
+        "prompt": "说实话，这家酒店",
+        "response": "服务态度还不错，不过我觉得这里的早餐最好吃，而且",
+        "raw_reward": 2.464
+      },
+      {
+        "prompt": "这件衣服穿起来",
+        "response": "很舒服，但是它的价格有点贵，你觉得这个价格",
+        "raw_reward": 0.608
+      },
+      {
+        "prompt": "这个苹果吃起来",
+        "response": "比鸡蛋还好吃,吃起来却更甜\n\n说到",
+        "raw_reward": 1.994
+      },
+      {
+        "prompt": "新买的手机用起来",
+        "response": "很慢,怎么办?\n现在大家都很注意手机的用",
+        "raw_reward": -1.1579
+      }
+    ]
+  },
+  "history": [
+    {
+      "step": 1,
+      "raw_reward_mean": -1.843366026878357,
+      "reward_mean": 0.3888898491859436,
+      "sampled_kl_per_token": 0.005677858833223581,
+      "policy_loss": -0.1650201678276062,
+      "value_loss": 0.06609952449798584,
+      "ratio_mean": 5.565876483917236
+    },
+    {
+      "step": 2,
+      "raw_reward_mean": 2.4623262882232666,
+      "reward_mean": 0.6489431858062744,
+      "sampled_kl_per_token": -0.03018832392990589,
+      "policy_loss": -0.17270532250404358,
+      "value_loss": 0.17657236754894257,
+      "ratio_mean": 3.338711738586426
+    },
+    {
+      "step": 3,
+      "raw_reward_mean": -0.4949953258037567,
+      "reward_mean": 0.47145411372184753,
+      "sampled_kl_per_token": 0.05159799009561539,
+      "policy_loss": -0.17239750921726227,
+      "value_loss": 0.06341536343097687,
+      "ratio_mean": 2.0477306842803955
+    },
+    {
+      "step": 4,
+      "raw_reward_mean": 0.4162159264087677,
+      "reward_mean": 0.5255851745605469,
+      "sampled_kl_per_token": -0.014394840225577354,
+      "policy_loss": -0.16771447658538818,
+      "value_loss": 0.07877480983734131,
+      "ratio_mean": 1.4574209451675415
+    },
+    {
+      "step": 5,
+      "raw_reward_mean": -1.99958336353302,
+      "reward_mean": 0.40300336480140686,
+      "sampled_kl_per_token": 0.02380537986755371,
+      "policy_loss": -0.1550699770450592,
+      "value_loss": 0.03558523207902908,
+      "ratio_mean": 1.1764410734176636
+    },
+    {
+      "step": 6,
+      "raw_reward_mean": 1.0602960586547852,
+      "reward_mean": 0.5625476241111755,
+      "sampled_kl_per_token": 0.07588295638561249,
+      "policy_loss": -0.1716470718383789,
+      "value_loss": 0.061990004032850266,
+      "ratio_mean": 1.4181512594223022
+    },
+    {
+      "step": 7,
+      "raw_reward_mean": 0.2454993724822998,
+      "reward_mean": 0.5150648951530457,
+      "sampled_kl_per_token": 0.0859215259552002,
+      "policy_loss": -0.19031938910484314,
+      "value_loss": 0.03707631677389145,
+      "ratio_mean": 1.2798051834106445
+    },
+    {
+      "step": 8,
+      "raw_reward_mean": -1.4672763347625732,
+      "reward_mean": 0.41347163915634155,
+      "sampled_kl_per_token": 0.07341917604207993,
+      "policy_loss": -0.19551639258861542,
+      "value_loss": 0.009334434755146503,
+      "ratio_mean": 1.107826590538025
+    },
+    {
+      "step": 9,
+      "raw_reward_mean": 2.007436752319336,
+      "reward_mean": 0.6207321882247925,
+      "sampled_kl_per_token": 0.041379451751708984,
+      "policy_loss": -0.16527074575424194,
+      "value_loss": 0.046328745782375336,
+      "ratio_mean": 1.2090606689453125
+    },
+    {
+      "step": 10,
+      "raw_reward_mean": -0.5911943912506104,
+      "reward_mean": 0.4694565236568451,
+      "sampled_kl_per_token": 0.12186519801616669,
+      "policy_loss": -0.15538762509822845,
+      "value_loss": 0.015660159289836884,
+      "ratio_mean": 1.1615853309631348
+    },
+    {
+      "step": 11,
+      "raw_reward_mean": 3.493264675140381,
+      "reward_mean": 0.6959975957870483,
+      "sampled_kl_per_token": 0.06780493259429932,
+      "policy_loss": -0.16110947728157043,
+      "value_loss": 0.056307028979063034,
+      "ratio_mean": 1.2874995470046997
+    },
+    {
+      "step": 12,
+      "raw_reward_mean": -0.6042919158935547,
+      "reward_mean": 0.464794397354126,
+      "sampled_kl_per_token": 0.08115502446889877,
+      "policy_loss": -0.19229072332382202,
+      "value_loss": 0.011296989396214485,
+      "ratio_mean": 1.1674940586090088
+    },
+    {
+      "step": 13,
+      "raw_reward_mean": -0.028543442487716675,
+      "reward_mean": 0.4986918270587921,
+      "sampled_kl_per_token": 0.11647157371044159,
+      "policy_loss": -0.1815304458141327,
+      "value_loss": 0.006537303328514099,
+      "ratio_mean": 1.1573257446289062
+    },
+    {
+      "step": 14,
+      "raw_reward_mean": 0.9776530861854553,
+      "reward_mean": 0.5605422854423523,
+      "sampled_kl_per_token": 0.09506070613861084,
+      "policy_loss": -0.16944193840026855,
+      "value_loss": 0.01628832519054413,
+      "ratio_mean": 1.197257399559021
+    },
+    {
+      "step": 15,
+      "raw_reward_mean": -1.3832581043243408,
+      "reward_mean": 0.4165898561477661,
+      "sampled_kl_per_token": 0.19973182678222656,
+      "policy_loss": -0.19924509525299072,
+      "value_loss": 0.011134203523397446,
+      "ratio_mean": 1.1889052391052246
+    },
+    {
+      "step": 16,
+      "raw_reward_mean": -0.3632488250732422,
+      "reward_mean": 0.4835506081581116,
+      "sampled_kl_per_token": 0.1637023389339447,
+      "policy_loss": -0.160506933927536,
+      "value_loss": 0.01853330060839653,
+      "ratio_mean": 1.2396855354309082
+    },
+    {
+      "step": 17,
+      "raw_reward_mean": 1.0391125679016113,
+      "reward_mean": 0.5633630752563477,
+      "sampled_kl_per_token": 0.1768614500761032,
+      "policy_loss": -0.16700933873653412,
+      "value_loss": 0.006551779806613922,
+      "ratio_mean": 1.2127816677093506
+    },
+    {
+      "step": 18,
+      "raw_reward_mean": 0.769454836845398,
+      "reward_mean": 0.5419963002204895,
+      "sampled_kl_per_token": 0.1395486742258072,
+      "policy_loss": -0.14618347585201263,
+      "value_loss": 0.01596211828291416,
+      "ratio_mean": 1.0851020812988281
+    },
+    {
+      "step": 19,
+      "raw_reward_mean": 0.9912749528884888,
+      "reward_mean": 0.5604592561721802,
+      "sampled_kl_per_token": 0.16854660212993622,
+      "policy_loss": -0.18645580112934113,
+      "value_loss": 0.000941122998483479,
+      "ratio_mean": 1.1406960487365723
+    },
+    {
+      "step": 20,
+      "raw_reward_mean": 0.09121847152709961,
+      "reward_mean": 0.5059018731117249,
+      "sampled_kl_per_token": 0.08011507987976074,
+      "policy_loss": -0.16384747624397278,
+      "value_loss": 0.005703488830476999,
+      "ratio_mean": 1.1602442264556885
+    },
+    {
+      "step": 21,
+      "raw_reward_mean": 2.1555190086364746,
+      "reward_mean": 0.6276219487190247,
+      "sampled_kl_per_token": 0.1604164093732834,
+      "policy_loss": -0.19190144538879395,
+      "value_loss": 0.009187454357743263,
+      "ratio_mean": 1.3229060173034668
+    },
+    {
+      "step": 22,
+      "raw_reward_mean": -2.1380670070648193,
+      "reward_mean": 0.37804922461509705,
+      "sampled_kl_per_token": 0.06766287982463837,
+      "policy_loss": -0.16689088940620422,
+      "value_loss": 0.01508675329387188,
+      "ratio_mean": 1.1365230083465576
+    },
+    {
+      "step": 23,
+      "raw_reward_mean": -0.09775954484939575,
+      "reward_mean": 0.4942711889743805,
+      "sampled_kl_per_token": 0.07393566519021988,
+      "policy_loss": -0.14843440055847168,
+      "value_loss": 0.009247172623872757,
+      "ratio_mean": 1.22147536277771
+    },
+    {
+      "step": 24,
+      "raw_reward_mean": 0.443533718585968,
+      "reward_mean": 0.5275425910949707,
+      "sampled_kl_per_token": 0.23545536398887634,
+      "policy_loss": -0.16576263308525085,
+      "value_loss": 0.001379678724333644,
+      "ratio_mean": 1.0561540126800537
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "method": "pointwise",
+  "model": "E:\\Workspace\\Beginner\\llm-beginner\\task-4-rag\\models\\bge-small-zh-v1.5",
+  "seed": 42,
+  "epochs": 1,
+  "batch_size": 8,
+  "max_length": 64,
+  "learning_rate": 5e-05,
+  "train_samples": 32,
+  "total_steps": 4,
+  "device": "cuda:0",
+  "bf16": true,
+  "torch_version": "2.13.0+cu130",
+  "duplicate_ratio": null
+}

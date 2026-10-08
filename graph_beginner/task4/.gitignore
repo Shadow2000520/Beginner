@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.reference/
+data/*/
+results/**/best.pt
+.matplotlib/

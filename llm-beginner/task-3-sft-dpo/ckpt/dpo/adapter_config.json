@@ -1,0 +1,14 @@
+{
+  "base_model": "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\models\\Qwen2.5-0.5B",
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "r": 8,
+  "alpha": 16.0,
+  "stage": "dpo",
+  "source_sft": "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\ckpt\\sft",
+  "epoch": 2,
+  "beta": 0.1,
+  "dev_loss": 0.6426872611045837
+}

@@ -1,0 +1,21 @@
+__pycache__/
+
+*.log
+*.pot
+*.pt
+
+**/checkpoints
+**/.DS_Store
+
+# Reproducible text-matching experiments (reports are kept separately).
+text_matching/runs/
+text_matching/models/
+UIE/runs/
+prompt_tasks/runs/
+text_classification/runs/
+RLHF/runs/
+RLHF/data/human_labeled/
+answer_generation/models/
+text_generation/runs/
+LLM/models/
+LLM/runs/

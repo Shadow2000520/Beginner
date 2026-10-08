@@ -1,0 +1,34 @@
+{
+  "args": {
+    "sft": "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\ckpt\\sft",
+    "data": [
+      "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\data\\dpo\\dpo_zh.json"
+    ],
+    "output_dir": "E:\\Workspace\\Beginner\\llm-beginner\\task-3-sft-dpo\\ckpt\\dpo",
+    "device": "cuda",
+    "train_samples": 1000,
+    "dev_samples": 128,
+    "max_length": 768,
+    "batch_size": 1,
+    "grad_accum": 8,
+    "epochs": 2,
+    "lr": 5e-06,
+    "beta": 0.1,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
+    "patience": 2,
+    "seed": 42
+  },
+  "data": {
+    "available": 9999,
+    "scanned": 1148,
+    "skipped": 20,
+    "duplicate_prompts": 0
+  },
+  "reference": "冻结的初始 SFT 模型",
+  "initial": {
+    "loss": 0.6931464076042175,
+    "reward_margin": 0.0,
+    "preference_accuracy": 0.0
+  }
+}

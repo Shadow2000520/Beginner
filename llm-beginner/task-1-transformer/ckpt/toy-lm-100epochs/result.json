@@ -1,0 +1,6 @@
+{
+  "causal_leaked_diff": 0.0,
+  "causal_pass": true,
+  "best_dev_loss": 6.55962900015024,
+  "best_dev_perplexity": 706.0097165027028
+}

@@ -1,0 +1,50 @@
+{
+  "dataset": "CiteSeer",
+  "model": "gcn",
+  "mode": "sampled",
+  "epochs": 30,
+  "eval_every": 5,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "layers": 2,
+  "hidden": 32,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 2048,
+  "neighbors": [
+    15
+  ],
+  "max_train_edges": 20000,
+  "seed": 42,
+  "threads": 4,
+  "device": "cuda",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task2\\data",
+  "output": "task2\\results\\baseline\\CiteSeer_gcn_sampled_s42_lr0.01_l2",
+  "status": "ok",
+  "device_used": "cuda",
+  "graph_stats": {
+    "nodes": 3327,
+    "undirected_edges": 4552,
+    "features": 3703
+  },
+  "train_positive_edges": 1161,
+  "val_edges": 454,
+  "test_edges": 910,
+  "best_epoch": 30,
+  "best_val_auc": 0.7503541707992554,
+  "val_auc": 0.7503541707992554,
+  "test_auc": 0.7701388597488403,
+  "test_average_precision": 0.7792873382568359,
+  "test_accuracy": 0.6769230961799622,
+  "train_seconds": 4.932555500417948,
+  "mean_epoch_seconds": 0.16441851668059826,
+  "optimizer_steps": 60,
+  "parameters": 119584,
+  "environment": {
+    "python": "3.13.5",
+    "torch": "2.8.0+cu128",
+    "pyg": "2.7.0",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5080"
+  }
+}

@@ -1,0 +1,580 @@
+{
+  "model": "E:\\Workspace\\Beginner\\transformers_tasks\\LLM\\models\\Qwen2.5-1.5B-Instruct",
+  "result": {
+    "details": {
+      "E": 14,
+      "I": 7,
+      "S": 10,
+      "N": 16,
+      "T": 15,
+      "F": 8,
+      "J": 16,
+      "P": 6
+    },
+    "res": "ENTJ",
+    "complete": true,
+    "ties": [],
+    "question_count": 92,
+    "excluded": [
+      {
+        "id": "75",
+        "reason": "invalid dimension mapping"
+      }
+    ],
+    "choices": [
+      {
+        "id": "1",
+        "choice": "B",
+        "trait": "P",
+        "choice_probability": 0.622459352016449
+      },
+      {
+        "id": "2",
+        "choice": "A",
+        "trait": "P",
+        "choice_probability": 0.7310585975646973
+      },
+      {
+        "id": "3",
+        "choice": "A",
+        "trait": "S",
+        "choice_probability": 0.7057850360870361
+      },
+      {
+        "id": "4",
+        "choice": "A",
+        "trait": "E",
+        "choice_probability": 0.9046505093574524
+      },
+      {
+        "id": "5",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.970687747001648
+      },
+      {
+        "id": "6",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.7310585975646973
+      },
+      {
+        "id": "7",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.8807970285415649
+      },
+      {
+        "id": "8",
+        "choice": "A",
+        "trait": "E",
+        "choice_probability": 0.7057850360870361
+      },
+      {
+        "id": "9",
+        "choice": "A",
+        "trait": "J",
+        "choice_probability": 0.8807970285415649
+      },
+      {
+        "id": "10",
+        "choice": "A",
+        "trait": "J",
+        "choice_probability": 0.9324532747268677
+      },
+      {
+        "id": "11",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.6791787147521973
+      },
+      {
+        "id": "12",
+        "choice": "A",
+        "trait": "I",
+        "choice_probability": 0.5
+      },
+      {
+        "id": "13",
+        "choice": "A",
+        "trait": "S",
+        "choice_probability": 0.8807970285415649
+      },
+      {
+        "id": "14",
+        "choice": "B",
+        "trait": "I",
+        "choice_probability": 0.9525741338729858
+      },
+      {
+        "id": "15",
+        "choice": "B",
+        "trait": "S",
+        "choice_probability": 0.622459352016449
+      },
+      {
+        "id": "16",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.6513549089431763
+      },
+      {
+        "id": "17",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.8519527316093445
+      },
+      {
+        "id": "18",
+        "choice": "A",
+        "trait": "I",
+        "choice_probability": 0.562176525592804
+      },
+      {
+        "id": "19",
+        "choice": "A",
+        "trait": "E",
+        "choice_probability": 0.6791787147521973
+      },
+      {
+        "id": "20",
+        "choice": "B",
+        "trait": "P",
+        "choice_probability": 0.7057850360870361
+      },
+      {
+        "id": "21",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.6791787147521973
+      },
+      {
+        "id": "22",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.970687747001648
+      },
+      {
+        "id": "23",
+        "choice": "A",
+        "trait": "E",
+        "choice_probability": 0.7981867790222168
+      },
+      {
+        "id": "24",
+        "choice": "B",
+        "trait": "S",
+        "choice_probability": 0.8670357465744019
+      },
+      {
+        "id": "25",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.9924227595329285
+      },
+      {
+        "id": "26",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.5926666259765625
+      },
+      {
+        "id": "27",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.7549149990081787
+      },
+      {
+        "id": "28",
+        "choice": "B",
+        "trait": "P",
+        "choice_probability": 0.622459352016449
+      },
+      {
+        "id": "29",
+        "choice": "B",
+        "trait": "S",
+        "choice_probability": 0.8519527316093445
+      },
+      {
+        "id": "30",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.970687747001648
+      },
+      {
+        "id": "31",
+        "choice": "B",
+        "trait": "F",
+        "choice_probability": 0.562176525592804
+      },
+      {
+        "id": "32",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.5926666259765625
+      },
+      {
+        "id": "33",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.8670357465744019
+      },
+      {
+        "id": "34",
+        "choice": "B",
+        "trait": "I",
+        "choice_probability": 0.6513549089431763
+      },
+      {
+        "id": "35",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.8175744414329529
+      },
+      {
+        "id": "36",
+        "choice": "A",
+        "trait": "J",
+        "choice_probability": 0.5926666259765625
+      },
+      {
+        "id": "37",
+        "choice": "B",
+        "trait": "S",
+        "choice_probability": 0.8175744414329529
+      },
+      {
+        "id": "38",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.9149009585380554
+      },
+      {
+        "id": "39",
+        "choice": "A",
+        "trait": "T",
+        "choice_probability": 0.9046505093574524
+      },
+      {
+        "id": "40",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.8519527316093445
+      },
+      {
+        "id": "41",
+        "choice": "A",
+        "trait": "P",
+        "choice_probability": 0.7981867790222168
+      },
+      {
+        "id": "42",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.8670357465744019
+      },
+      {
+        "id": "43",
+        "choice": "A",
+        "trait": "J",
+        "choice_probability": 0.9465966820716858
+      },
+      {
+        "id": "44",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.8807970285415649
+      },
+      {
+        "id": "45",
+        "choice": "A",
+        "trait": "F",
+        "choice_probability": 0.6513549089431763
+      },
+      {
+        "id": "46",
+        "choice": "B",
+        "trait": "F",
+        "choice_probability": 0.9669140577316284
+      },
+      {
+        "id": "47",
+        "choice": "A",
+        "trait": "S",
+        "choice_probability": 0.5
+      },
+      {
+        "id": "48",
+        "choice": "A",
+        "trait": "I",
+        "choice_probability": 0.6791787147521973
+      },
+      {
+        "id": "49",
+        "choice": "A",
+        "trait": "J",
+        "choice_probability": 0.6513549089431763
+      },
+      {
+        "id": "50",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.7981867790222168
+      },
+      {
+        "id": "51",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.8519527316093445
+      },
+      {
+        "id": "52",
+        "choice": "B",
+        "trait": "F",
+        "choice_probability": 0.8175744414329529
+      },
+      {
+        "id": "53",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.9324532747268677
+      },
+      {
+        "id": "54",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.5926666259765625
+      },
+      {
+        "id": "55",
+        "choice": "B",
+        "trait": "S",
+        "choice_probability": 0.8933094143867493
+      },
+      {
+        "id": "56",
+        "choice": "A",
+        "trait": "F",
+        "choice_probability": 0.7057850360870361
+      },
+      {
+        "id": "57",
+        "choice": "A",
+        "trait": "T",
+        "choice_probability": 0.9241418242454529
+      },
+      {
+        "id": "58",
+        "choice": "A",
+        "trait": "S",
+        "choice_probability": 0.8670357465744019
+      },
+      {
+        "id": "59",
+        "choice": "A",
+        "trait": "J",
+        "choice_probability": 0.7549149990081787
+      },
+      {
+        "id": "60",
+        "choice": "A",
+        "trait": "I",
+        "choice_probability": 0.562176525592804
+      },
+      {
+        "id": "61",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.9149009585380554
+      },
+      {
+        "id": "62",
+        "choice": "A",
+        "trait": "E",
+        "choice_probability": 0.6791787147521973
+      },
+      {
+        "id": "63",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.7057850360870361
+      },
+      {
+        "id": "64",
+        "choice": "A",
+        "trait": "F",
+        "choice_probability": 0.7057850360870361
+      },
+      {
+        "id": "65",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.7310585975646973
+      },
+      {
+        "id": "66",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.9046505093574524
+      },
+      {
+        "id": "67",
+        "choice": "B",
+        "trait": "I",
+        "choice_probability": 0.9324532747268677
+      },
+      {
+        "id": "68",
+        "choice": "A",
+        "trait": "J",
+        "choice_probability": 0.9465966820716858
+      },
+      {
+        "id": "69",
+        "choice": "A",
+        "trait": "T",
+        "choice_probability": 0.9399133324623108
+      },
+      {
+        "id": "70",
+        "choice": "B",
+        "trait": "P",
+        "choice_probability": 0.9046505093574524
+      },
+      {
+        "id": "71",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.9980732202529907
+      },
+      {
+        "id": "72",
+        "choice": "B",
+        "trait": "E",
+        "choice_probability": 0.9149009585380554
+      },
+      {
+        "id": "73",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.5926666259765625
+      },
+      {
+        "id": "74",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.9149009585380554
+      },
+      {
+        "id": "76",
+        "choice": "B",
+        "trait": "J",
+        "choice_probability": 0.970687747001648
+      },
+      {
+        "id": "77",
+        "choice": "A",
+        "trait": "E",
+        "choice_probability": 0.9046505093574524
+      },
+      {
+        "id": "78",
+        "choice": "A",
+        "trait": "T",
+        "choice_probability": 0.5
+      },
+      {
+        "id": "79",
+        "choice": "B",
+        "trait": "S",
+        "choice_probability": 0.622459352016449
+      },
+      {
+        "id": "80",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.7310585975646973
+      },
+      {
+        "id": "81",
+        "choice": "B",
+        "trait": "F",
+        "choice_probability": 0.6791787147521973
+      },
+      {
+        "id": "82",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.9796676635742188
+      },
+      {
+        "id": "83",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.7549149990081787
+      },
+      {
+        "id": "84",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.9324532747268677
+      },
+      {
+        "id": "85",
+        "choice": "A",
+        "trait": "T",
+        "choice_probability": 0.7549149990081787
+      },
+      {
+        "id": "86",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.9933071732521057
+      },
+      {
+        "id": "87",
+        "choice": "A",
+        "trait": "N",
+        "choice_probability": 0.6513549089431763
+      },
+      {
+        "id": "88",
+        "choice": "B",
+        "trait": "T",
+        "choice_probability": 0.8519527316093445
+      },
+      {
+        "id": "89",
+        "choice": "A",
+        "trait": "T",
+        "choice_probability": 0.5926666259765625
+      },
+      {
+        "id": "90",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.6513549089431763
+      },
+      {
+        "id": "91",
+        "choice": "A",
+        "trait": "F",
+        "choice_probability": 0.9669140577316284
+      },
+      {
+        "id": "92",
+        "choice": "A",
+        "trait": "T",
+        "choice_probability": 0.8175744414329529
+      },
+      {
+        "id": "93",
+        "choice": "B",
+        "trait": "N",
+        "choice_probability": 0.9399133324623108
+      }
+    ],
+    "method": "single-token A/B next-token logits; ties choose the first letter"
+  }
+}

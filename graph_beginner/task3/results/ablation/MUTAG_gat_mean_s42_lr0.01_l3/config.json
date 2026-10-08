@@ -1,0 +1,21 @@
+{
+  "dataset": "MUTAG",
+  "model": "gat",
+  "pooling": "mean",
+  "epochs": 30,
+  "eval_every": 5,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "layers": 3,
+  "hidden": 64,
+  "heads": 4,
+  "dropout": 0.5,
+  "batch_size": 128,
+  "zinc_bins": 10,
+  "max_train_graphs": 0,
+  "seed": 42,
+  "threads": 4,
+  "device": "auto",
+  "data_root": "E:\\Workspace\\Beginner\\graph_beginner\\task3\\data",
+  "output": "results\\ablation\\MUTAG_gat_mean_s42_lr0.01_l3"
+}

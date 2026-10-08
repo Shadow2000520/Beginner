@@ -1,0 +1,47 @@
+{
+  "base_model": "E:\\Workspace\\Beginner\\transformers_tasks\\LLM\\models\\Qwen2.5-0.5B",
+  "init_adapters": [
+    "LLM/runs/training/pretrain",
+    "LLM/runs/training/sft"
+  ],
+  "train_last_layers": 1,
+  "max_length": 96,
+  "seed": 42,
+  "max_train": 16,
+  "max_eval": 8,
+  "full_counts": {
+    "train": 900,
+    "valid": 100,
+    "test": 100
+  },
+  "used_counts": {
+    "train": 16,
+    "valid": 8,
+    "test": 8
+  },
+  "baseline_valid": {
+    "pair_accuracy": 0.5,
+    "mean_margin": -0.6552734375,
+    "pairs": 8
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.2261010129004717,
+      "pair_accuracy": 0.75,
+      "mean_margin": 0.6337890625,
+      "pairs": 8
+    }
+  ],
+  "best_epoch": 1,
+  "valid": {
+    "pair_accuracy": 0.75,
+    "mean_margin": 0.6337890625,
+    "pairs": 8
+  },
+  "test": {
+    "pair_accuracy": 0.5,
+    "mean_margin": -0.4794921875,
+    "pairs": 8
+  }
+}

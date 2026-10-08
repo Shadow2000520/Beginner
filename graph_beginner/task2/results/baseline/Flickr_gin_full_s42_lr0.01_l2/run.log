@@ -1,0 +1,6 @@
+E:\Workspace\Beginner\graph_beginner\task2\code\models.py:53: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\SparseCsrTensorImpl.cpp:55.)
+  ).coalesce().to_sparse_csr()
+Flickr/gin/full epoch=10 loss=279.0764 val_auc=1.0000
+Flickr/gin/full epoch=20 loss=0.7282 val_auc=1.0000
+Flickr/gin/full epoch=30 loss=0.7282 val_auc=1.0000
+{"test_auc": 1.0, "test_average_precision": 1.0, "test_accuracy": 0.5, "train_seconds": 6.224544700002298}

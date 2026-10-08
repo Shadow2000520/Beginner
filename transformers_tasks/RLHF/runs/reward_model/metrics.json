@@ -1,0 +1,54 @@
+{
+  "base_model": "E:\\Workspace\\Beginner\\llm-beginner\\task-4-rag\\models\\bge-small-zh-v1.5",
+  "seed": 42,
+  "max_length": 96,
+  "train_size": 12328,
+  "valid_size": 1529,
+  "test_size": 1530,
+  "removed_overlap_rows": 23,
+  "best_epoch": 3,
+  "baseline_valid": {
+    "rank_accuracy": 0.034009156311314584,
+    "pair_accuracy": 0.4773272291257903,
+    "mean_pair_margin": -0.012732537322374365,
+    "ranklists": 1529
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.25868997946091665,
+      "rank_accuracy": 0.5820797907128843,
+      "pair_accuracy": 0.9112709832134293,
+      "mean_pair_margin": 5.000141265490832,
+      "ranklists": 1529
+    },
+    {
+      "epoch": 2,
+      "loss": 0.18862090955564484,
+      "rank_accuracy": 0.6147809025506867,
+      "pair_accuracy": 0.9182472204054938,
+      "mean_pair_margin": 5.71374733271193,
+      "ranklists": 1529
+    },
+    {
+      "epoch": 3,
+      "loss": 0.15684152552048675,
+      "rank_accuracy": 0.6213211249182472,
+      "pair_accuracy": 0.9215173315892741,
+      "mean_pair_margin": 6.651644610701783,
+      "ranklists": 1529
+    }
+  ],
+  "valid": {
+    "rank_accuracy": 0.6213211249182472,
+    "pair_accuracy": 0.9215173315892741,
+    "mean_pair_margin": 6.651644610701783,
+    "ranklists": 1529
+  },
+  "test": {
+    "rank_accuracy": 0.6241830065359477,
+    "pair_accuracy": 0.920479302832244,
+    "mean_pair_margin": 6.622881403515493,
+    "ranklists": 1530
+  }
+}

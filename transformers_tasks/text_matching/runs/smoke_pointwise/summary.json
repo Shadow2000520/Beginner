@@ -1,0 +1,79 @@
+{
+  "pointwise": {
+    "config": {
+      "method": "pointwise",
+      "model": "E:\\Workspace\\Beginner\\llm-beginner\\task-4-rag\\models\\bge-small-zh-v1.5",
+      "seed": 42,
+      "epochs": 1,
+      "batch_size": 8,
+      "max_length": 64,
+      "learning_rate": 5e-05,
+      "train_samples": 32,
+      "total_steps": 4,
+      "device": "cuda:0",
+      "bf16": true,
+      "torch_version": "2.13.0+cu130",
+      "duplicate_ratio": null
+    },
+    "baseline_dev": {
+      "accuracy": 0.5490196078431373,
+      "precision": 0.30985915492957744,
+      "recall": 0.25,
+      "f1": 0.27672955974842767,
+      "spearman": -0.060849281481763925,
+      "confusion_matrix": [
+        [
+          118,
+          49
+        ],
+        [
+          66,
+          22
+        ]
+      ],
+      "threshold": 0.5,
+      "n": 255
+    },
+    "best_step": 4,
+    "dev": {
+      "accuracy": 0.6549019607843137,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "spearman": -0.0471232738296055,
+      "confusion_matrix": [
+        [
+          167,
+          0
+        ],
+        [
+          88,
+          0
+        ]
+      ],
+      "threshold": 0.5,
+      "n": 255
+    },
+    "test": {
+      "accuracy": 0.6496062992125984,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "spearman": 0.13072571837912259,
+      "confusion_matrix": [
+        [
+          165,
+          0
+        ],
+        [
+          89,
+          0
+        ]
+      ],
+      "threshold": 0.5,
+      "n": 254
+    },
+    "elapsed_seconds": 16.47381959995255,
+    "test_majority_accuracy": 0.6496062992125984
+  }
+}

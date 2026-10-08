@@ -1,0 +1,11 @@
+Flickr/gat/full seed=44 epoch=10 loss=2.2636 best_val=0.1806
+Flickr/gat/full seed=44 epoch=20 loss=1.8850 best_val=0.1991
+Flickr/gat/full seed=44 epoch=30 loss=1.7684 best_val=0.3422
+Flickr/gat/full seed=44 epoch=40 loss=1.6963 best_val=0.4038
+Flickr/gat/full seed=44 epoch=50 loss=1.6458 best_val=0.4695
+Flickr/gat/full seed=44 epoch=60 loss=1.6228 best_val=0.4818
+Flickr/gat/full seed=44 epoch=70 loss=1.6110 best_val=0.4878
+Flickr/gat/full seed=44 epoch=80 loss=1.5930 best_val=0.4924
+Flickr/gat/full seed=44 epoch=90 loss=1.5816 best_val=0.4954
+Flickr/gat/full seed=44 epoch=100 loss=1.5818 best_val=0.4968
+{"test_accuracy": 0.4934343099594116, "test_macro_f1": 0.1612549126148224, "train_seconds": 19.991017900174484}

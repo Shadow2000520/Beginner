@@ -1,0 +1,9 @@
+{
+  "vocab_size": 512,
+  "merges": 253,
+  "training_file": "E:\\Workspace\\Beginner\\llm-beginner\\task-2-mini-gpt\\data\\train.txt",
+  "training_sha256": "4afc5437143d88dd7d77a075669423294a76bef39afc4532e88063c442ca6e63",
+  "training_bytes": 43292,
+  "training_tokens": 24353,
+  "roundtrip_pass": true
+}
